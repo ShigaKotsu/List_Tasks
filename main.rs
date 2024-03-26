@@ -56,7 +56,7 @@ fn main() {
     io::stdout().flush().unwrap();
     input.clear();
     io::stdin().read_line(&mut input).unwrap();
-    let escolha: u32 = input.trim().parse().unwrap();
+    let escolha: usize = input.trim().parse().unwrap();
 
     if escolha == 1 {
         print!("Digite a tarefa que deseja adicionar: ");
